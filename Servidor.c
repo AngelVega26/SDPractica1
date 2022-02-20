@@ -49,8 +49,7 @@ main () {
 		sprintf(Texto,"%d",num);
 		Escribe_Socket (Socket_Cliente, (char *)&Auxiliar, sizeof(Longitud));
 		Escribe_Socket(Socket_Cliente, Texto, Longitud);
-    	
-		
+ 	
 
     }while (num!=0);
     
