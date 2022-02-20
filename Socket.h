@@ -7,7 +7,6 @@
 
 int Lee_Socket (int fd, char *Datos, int Longitud);
 
-
 int Escribe_Socket (int fd, char *Datos, int Longitud);
 
 int Lee_Socket_Udp (int fd, struct sockaddr *Remoto, socklen_t *Longitud_Remoto, char *Datos, int Longitud_Datos);
