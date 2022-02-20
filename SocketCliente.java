@@ -23,7 +23,6 @@ public class SocketCliente
              System.out.println ("ConexiÃ²n exitosa");
 
 
-
              socket.setSoLinger (true, 10);
              
 
