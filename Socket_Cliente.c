@@ -8,7 +8,6 @@
 #include <stdio.h>
 #include <unistd.h>
 
-
 int Abre_Conexion_Unix (char *Servicio)
 {
 	struct sockaddr_un Direccion;
