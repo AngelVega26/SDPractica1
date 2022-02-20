@@ -12,6 +12,7 @@ main ()
 	char Texto[100];
 
 
+	
 	Socket_Con_Servidor = Abre_Conexion_Inet ("localhost", "cpp_java");
 	if (Socket_Con_Servidor == 1)
 	{
@@ -19,6 +20,7 @@ main ()
 		exit (-1);
 	}
 
+	
    strcpy (Cadena, "Hola");
    Longitud = 6;
 
@@ -34,5 +36,7 @@ main ()
    Lee_Socket (Socket_Con_Servidor, Texto, Longitud);
    printf ("From Server: %s\n", Texto);
    
+	
+	
 	close (Socket_Con_Servidor);
 }
