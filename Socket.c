@@ -176,9 +176,7 @@ int Dame_Direccion_Udp (char *Host, char *Servicio, struct sockaddr_in *Servidor
 
    if (Servidor == NULL) return -1;
 
- 
    Servidor->sin_family = AF_INET;
-
 
    if (Host != NULL)
    {
